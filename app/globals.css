@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-page: #1a1622;
+  --color-panel: #0f0d14;
+  --color-line: #322c3e;
+  --color-body: #b4b4bc;
+  --color-strong: #f4f3f7;
+  --color-accent: #c5c8e3;
+  --color-bad: #f2a3a3;
+  --color-good: #a3dcb5;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, Menlo, monospace;
+  --font-serif: "Vitruv Headline", Georgia, serif;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+}
