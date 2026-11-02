@@ -113,7 +113,7 @@ export default function Home() {
         <h2 className="font-serif text-2xl text-strong">What I did not verify</h2>
         <ul className="mt-4 list-disc space-y-3 pl-5 leading-7">
           <li>
-            <strong className="text-strong">Nothing ran against your live API.</strong> I have no Avrea account. The
+            <strong className="text-strong">The patch never ran against your live API.</strong> I have no Avrea account. The
             patch assumes the runs list with <code className="font-mono text-sm">include=jobs</code> returns{" "}
             <code className="font-mono text-sm">platform_job_id</code>, as your CLI code and test stubs suggest. One real{" "}
             <code className="font-mono text-sm">avr run view &lt;job URL&gt; --json run_id,run_attempt</code> would settle

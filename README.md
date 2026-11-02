@@ -17,8 +17,8 @@ The patched behaviour next to the current one. The patch itself is on
 The transcripts in `app/transcripts.ts` are trimmed output from the real CLI:
 
 - Before: `avr` from source at `df6d102`, with a real job URL from `avrea-com/cli`. It fails at parsing.
-- After: `avr` from the fix branch, pointed by `AVR_HOST` at a local stub API with made-up data. **Nothing was run
-  against the live Avrea API.**
+- After: `avr` from the fix branch, pointed by `AVR_HOST` at a local stub API with made-up data. **The patch was
+  never run against the live Avrea API.** The unpatched CLI made only `avr health` and one request with a dummy token there.
 
 ## Run it
 
