@@ -1,6 +1,6 @@
 import { afterTranscript, attemptTranscript, beforeTranscript } from "./transcripts";
 
-const branchUrl = "https://github.com/cherylaurelia/cli/compare/main...fix/run-job-urls";
+const branchUrl = "https://github.com/avrea-com/cli/pull/79";
 const repoUrl = "https://github.com/avrea-com/cli";
 const commit = "https://github.com/avrea-com/cli/blob/df6d102dce45014c55d0929307b29603c6806e94";
 
@@ -43,7 +43,7 @@ export default function Home() {
       </p>
       <div className="mt-7 flex flex-wrap gap-3">
         <a href={branchUrl} className="rounded-lg bg-strong px-4 py-2.5 text-sm font-medium text-page hover:bg-accent">
-          See the patch (fork branch)
+          See the PR
         </a>
         <a
           href={repoUrl}
